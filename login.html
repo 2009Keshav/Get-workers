@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="CSS/customer.css">
+</head>
+<body>
+    <header>
+        <h1>Log In as <span>Customer</span></h1>
+    </header>
+    <main>
+        <img src="images/image.png" alt="image of worker">
+        <form action="confirmation.html">
+            <h3>Please provide us information below:-</h3><br><br>
+            <input type="tel" placeholder="Phone number(10 digit number only)" required maxlength="10"
+             inputmode="numeric" pattern="[0-9]{10}"><br><br>
+            <label for="typeOfWorker">Select the specification of worker you want:</label>
+                <select name="typeOfWorker" id="typeOfWorker" required>
+                    <option value="House_Helper">House Helper</option>
+                    <option value="Gardener">Gardener</option>
+                    <option value="Toilet_clener">Toilet Cleaner</option>
+                    <option value="Waiter">Waiter for Party</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            <input type="submit" id="sumbit"><br><br>
+        </form>
+    </main><br>
+    <footer>
+    </footer>
+</body>
+</html>

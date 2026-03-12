@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Worker Sign in</title>
+    <link rel="stylesheet" href="CSS/customer.css">
+</head>
+<body>
+    <header>
+        <h1>Sign in as <span>Worker</span></h1>
+    </header>
+    <main>
+        <img src="images/image.png" alt="image of worker">
+        <form action="confirmation.html">
+            <h3>Please Fill the form below:-</h3><br><br>
+            <input type="text" placeholder="Name" required><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <input type="tel" placeholder="Phone number(10 digit number only)" required maxlength="10"
+             inputmode="numeric" pattern="[0-9]{10}"><br><br>
+            <label for="typeOfWorker">Select your specification:</label>
+                <select name="typeOfWorker" id="typeOfWorker" required>
+                    <option value="House_Helper">House Helper</option>
+                    <option value="Gardener">Gardener</option>
+                    <option value="Toilet_clener">Toilet Cleaner</option>
+                    <option value="Waiter">Waiter for Party</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            <input type="submit" id="sumbit"><br><br>
+             <h4>Already signed up?<a href="#">Join the group</a></h4>
+        </form>
+    </main><br>
+    <footer>
+    </footer>
+    
+</body>
+</html>
