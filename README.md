@@ -1,6 +1,6 @@
 # Get Workers 🛠️
 
-**Get Workers** is a web-based platform designed to bridge the gap between service providers (workers) and people looking for help (customers) across India. Whether you need a gardener, a house helper, or a party waiter, this platform makes the connection simple and efficient.
+**Get Workers** is a   web-based platform designed to bridge the gap between service providers (workers) and people looking for help (customers) across India. Whether you need a gardener, a house helper, or a party waiter, this platform makes the connection simple and efficient.
 
 ## ✨ Features
 - **Dual Entry Points:** Separate registration/login flows for both **Customers** and **Workers**.
